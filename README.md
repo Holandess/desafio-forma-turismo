@@ -1,8 +1,7 @@
 # <img src="https://formaturismo.com.br/images/logo.jpg" width=76> Forma Turismo
 
-# Desafio Forma Turismo.
-
-# Desenvolver uma api que busca um usuário a partir do parâmetro em uma tabela SQL && todos usuários da tabela.
+Desafio Forma Turismo.
+Desenvolver uma api que busca um usuário a partir do parâmetro em uma tabela SQL e todos usuários da tabela.
 
 ## Passo a passo
 
