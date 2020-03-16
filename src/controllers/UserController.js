@@ -3,6 +3,7 @@ const connection = require("../model/db");
 module.exports = {
   async index(req, res) {
     connection.query("SELECT * FROM usuarios", (err, rows, fields) => {
+      if (err) throw err;
       return res.json(rows);
     });
   },
@@ -13,6 +14,7 @@ module.exports = {
       `SELECT * FROM usuarios WHERE id= ?`,
       [usuario],
       (err, rows, fields) => {
+        if (err) throw err;
         return res.json(rows);
       }
     );

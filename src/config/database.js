@@ -1,7 +1,7 @@
-//mysql connection setup
+// Configuracão do banco mysql
 module.exports = {
   host: "localhost",
-  user: "your user",
-  password: "your pass",
-  database: "EXAMPLE_DATABASE"
+  user: "filipe_holanda",
+  password: "forma1234",
+  database: "FORMA_TURISMO"
 };

@@ -4,46 +4,53 @@
 
 # Desenvolver uma api que busca um usuário a partir do parâmetro em uma tabela SQL && todos usuários da tabela.
 
-## Getting started
+## Passo a passo
 
-First of all, clone this project to your local development environment:
+Primeiro, clone este projeto no seu ambiente de desenvolvimento local:
 
 ```sh
 $ git clone git@github.com:Holandess/desafio-forma-turismo.git
 ```
 
-You'll need the following dependencies to work on this project:
+Você precisará das seguintes dependências para trabalhar neste projeto:
 
 - [Node 8.x.x](https://github.com/creationix/nvm)
 - [Mysql 2.x.x](https://github.com/mysqljs/mysql#readme)
 - [Nodemon 2.x.x](https://github.com/remy/nodemon)
 
-Then, install packages using the commands:
+Em seguida, instale os pacotes usando os comandos:
 
 ```sh
-$ yarn #updates node dependencies
+$ yarn
 ```
 
-### Config MYSQL
+ou
 
-Before running or the project initializes add as mysql settings
+```sh
+$ npm install
+```
+
+### Configuracões MYSQL
+
+Antes de iniciar o projeto verifique as configuracões do MYSQL
 
 ```sh
 $ cd src/config/database.js
 ```
 
 host: "localhost",
-user: "your user",
-password: "your pass",
-database: "EXAMPLE_DATABASE"
+user: "seu usuario",
+password: "sua senha",
+database: "nome do database"
 
-- host: The hostname of the database you are connecting to. (Default: localhost)
-- user: The MySQL user to authenticate as.
-- password: The password of that MySQL user.
-- database: Name of the database to use for this connection (Optional).
-
-### Start the local server
+### Para iniciar utilize o comando:
 
 ```sh
 $ yarn start
+```
+
+ou
+
+```sh
+$ npm start
 ```

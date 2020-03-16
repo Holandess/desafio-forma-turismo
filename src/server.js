@@ -5,5 +5,5 @@ const app = express();
 app.use(express.json());
 app.use(routes);
 
-//port used for localhost
+//Porta usada no localhost
 app.listen(4200);
